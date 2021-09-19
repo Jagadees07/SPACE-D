@@ -1,0 +1,590 @@
+body {
+  margin: 5px 5px 5px 5px;
+  background: url(images/night_background.png);
+  overflow-x: hidden;
+}
+span {
+  color: #fe9844;
+  font-weight: 600;
+}
+/* ==== NAVBAR ====*/
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item .nav-link:active,
+.navbar-dark .nav-item .nav-link:focus,
+.navbar-dark .nav-item:hover .nav-link {
+  color: #fe9844;
+}
+.nav-item {
+  margin-right: 30px;
+}
+.nav-item:last-child {
+  margin-right: -10px;
+}
+.nav-brand {
+  z-index: 2;
+}
+.nav-brand a {
+  margin-left: 500px;
+  font-family: "Aldrich", sans-serif;
+  letter-spacing: 2px;
+}
+.moon {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(80%);
+  width: 70%;
+  margin-left: 15%;
+  z-index: 1;
+}
+.details {
+  position: relative;
+  margin-top: -48%;
+  margin-left: 20px;
+  z-index: 1;
+}
+.details > h4 {
+  font-family: Teko;
+  color: rgb(192, 189, 189);
+}
+.details h1 {
+  color: floralwhite;
+  letter-spacing: 1px;
+  font-size: 70px;
+  display: inline-block;
+  margin-top: -15px;
+}
+
+.details h5 {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: rgb(192, 189, 189);
+  margin-left: 18px;
+}
+.moto {
+  position: absolute;
+  background-color: #0e2946;
+  filter: opacity(0.8);
+  color: white;
+  font-family: Teko;
+  height: 600px;
+  width: 460px;
+  margin-top: -530px;
+  margin-left: 650px;
+  word-spacing: 3px;
+  z-index: 1;
+}
+.moto .ah1 {
+  padding-top: 120px;
+  padding-left: 100px;
+  font-size: 47px;
+}
+.moto .ah2 {
+  padding-left: 100px;
+  font-size: 47px;
+}
+.moto .ah3 {
+  padding-left: 100px;
+  font-size: 47px;
+}
+.drop1 {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 235px;
+  height: 78px;
+  border-radius: 0px;
+  background-color: black;
+  border-color: rgb(192, 189, 189);
+  text-align: left;
+  z-index: 1;
+}
+.drop1 p {
+  font-family: Teko;
+  color: rgb(192, 189, 189);
+}
+.drop1 h4 {
+  margin-top: -18px;
+}
+
+.drop2 {
+  position: relative;
+  margin-top: 30px;
+  margin-left: -4px;
+  width: 235px;
+  height: 78px;
+  border-radius: 0px;
+  background-color: black;
+  border-color: rgb(192, 189, 189);
+  text-align: left;
+  z-index: 1;
+}
+.drop2 p {
+  font-family: Teko;
+  color: rgb(192, 189, 189);
+}
+.drop2 h4 {
+  margin-top: -18px;
+}
+
+.drop3 {
+  position: relative;
+  margin-top: 30px;
+  margin-left: -4px;
+  width: 235px;
+  height: 78px;
+  border-radius: 0px;
+  background-color: black;
+  border-color: rgb(192, 189, 189);
+  text-align: left;
+  z-index: 2;
+}
+.drop3 p {
+  font-family: Teko;
+  color: rgb(192, 189, 189);
+}
+.drop3 h4 {
+  margin-top: -18px;
+}
+.book1 {
+  position: relative;
+  width: 180px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 60px;
+  border-radius: 0px;
+  background-color: #fe9844;
+  border-color: #fe9844;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.book1:hover {
+  background-color: black;
+  color: #fe9844;
+  border-color: #fe9844;
+}
+
+.card-1 {
+  background-color: #cad7df;
+  width: 350px;
+  height: 295px;
+  border-radius: 1px;
+  border: none;
+}
+
+.travel-moon {
+  margin-top: 100px;
+  width: 350px;
+  height: 310px;
+}
+
+.card {
+  position: relative;
+  z-index: 0;
+  margin-top: 130px;
+  margin-left: 50px;
+}
+.card-text1 {
+  position: relative;
+  font-family: Teko;
+  color: black;
+  margin-top: -330px;
+  margin-left: 30px;
+  font-weight: 800;
+  font-size: 40px;
+}
+.card-text2 {
+  position: relative;
+  font-family: Teko;
+  color: black;
+  margin-top: -10px;
+  margin-left: 30px;
+  font-weight: 800;
+  font-size: 40px;
+}
+.card-text3 {
+  position: relative;
+  font-family: Teko;
+  color: black;
+  margin-top: -10px;
+  margin-left: 30px;
+  font-weight: 800;
+  font-size: 40px;
+}
+.quate1 {
+  color: white;
+  font-family: Teko;
+  margin-left: 780px;
+  margin-top: -100px;
+  word-spacing: 5px;
+}
+.qh1 {
+  margin-bottom: -10px;
+}
+
+.quate1 h5 {
+  margin-top: 20px;
+  color: gray;
+}
+.card-1-earth {
+  width: 100px;
+  margin-top: -600px;
+  margin-left: 1000px;
+}
+
+.card-2 {
+  position: relative;
+  z-index: 0;
+  margin-top: 70px;
+  margin-left: 140px;
+  width: 300px;
+  background: transparent;
+}
+
+.card-2 > h1 {
+  color: white;
+  font-family: Teko;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.card-2 .card-2-p {
+  margin-top: 10px;
+  color: gray;
+  width: 260px;
+}
+
+.planets {
+  position: relative;
+  margin-top: 50px;
+}
+#rate-of-moon {
+  color: white;
+  margin-top: -390px;
+  margin-left: 630px;
+}
+#rate-of-moon p {
+  color: gray;
+}
+.amoon {
+  width: 120px;
+  margin-top: -700px;
+  margin-left: 500px;
+}
+.aeuropa {
+  width: 70px;
+  margin-top: -460px;
+  margin-left: 250px;
+  padding: 15px 10px 15px 10px;
+  border-radius: 100%;
+  border: 1px solid gray;
+}
+.aearth {
+  width: 80px;
+  margin-top: -300px;
+  margin-left: -280px;
+  padding: 25px 25px 25px 25px;
+  border-radius: 100%;
+  border: 1px solid gray;
+}
+.amars {
+  width: 100px;
+  margin-top: -800px;
+  margin-left: -200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 100%;
+  border: 1px solid gray;
+}
+.suit {
+  font-family: Teko;
+  background-color: white;
+  border-radius: 0px;
+  border-style: none;
+  color: black;
+  width: 351px;
+  height: 400px;
+  margin-top: -30px;
+  margin-left: 700px;
+}
+.suit img {
+  position: absolute;
+  width: 230px;
+  height: 250px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.suit .sh1 {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+.suit .sh2 {
+  position: relative;
+  margin-top: -10px;
+  margin-left: 50px;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+.suit .sh3 {
+  position: relative;
+  margin-top: -10px;
+  margin-left: 50px;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+.quate2 {
+  font-family: Teko;
+  border: 2px solid gray;
+  background-color: transparent;
+  color: white;
+  width: 350px;
+  height: 400px;
+  margin-left: 162px;
+  margin-top: -130px;
+}
+.quate2 .qa1 {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.quate2 .qa2 {
+  margin-left: 40px;
+  margin-top: -10px;
+}
+.quate2 .qa3 {
+  margin-left: 40px;
+  margin-top: -10px;
+}
+.quate2 h5 {
+  color: gray;
+  margin-left: 50px;
+}
+.quate2 img {
+  width: 280px;
+  margin-top: -160px;
+  margin-left: 150px;
+}
+.checked {
+  color: #fe9844;
+  margin-top: 50px;
+  margin-left: 16px;
+  font-size: 100px;
+  justify-content: center;
+}
+.stars {
+  font-size: 32px;
+  margin-left: 35px;
+}
+.quate3 {
+  font-family: Teko;
+  color: white;
+  margin-top: -100px;
+  padding-left: 780px;
+}
+.qa32 {
+  margin-top: -10px;
+}
+.qa33 {
+  margin-top: -10px;
+}
+.marsMuseum {
+  color: white;
+  margin-top: 120px;
+}
+.marscard img {
+  width: 349px;
+  height: 230px;
+  margin-left: 47px;
+}
+.hmars {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.marscard span {
+  font-style: 12px;
+}
+.marscard a {
+  color: #fe9844;
+  margin-top: -20px;
+  margin-left: 75px;
+}
+.marscard i {
+  margin-left: 10px;
+}
+
+.europaa {
+  color: white;
+  margin-top: -200px;
+  margin-left: 700px;
+}
+.europacard img {
+  width: 349px;
+  height: 230px;
+  margin-left: 47px;
+}
+.heuropa {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.europacard span {
+  font-style: 12px;
+}
+.europacard a {
+  color: #fe9844;
+  margin-top: -20px;
+  margin-left: 75px;
+}
+.europacard i {
+  margin-left: 10px;
+}
+
+.roadtrip {
+  border: 2px solid gray;
+  width: 349px;
+  height: 197px;
+  margin-left: 160px;
+}
+.roadtrip img {
+  width: 40px;
+  border-radius: 100%;
+  border: 1px solid gray;
+}
+.rearth {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 5px 5px 5px 5px;
+}
+.rmars {
+  margin-top: 100px;
+  margin-left: 20px;
+  padding: 10px 2px 10px 2px;
+}
+.reurope {
+  margin-top: 0px;
+  margin-left: 20px;
+  padding: 5px 2px 5px 2px;
+}
+.rmoon {
+  margin-top: 25px;
+  margin-left: 50px;
+  padding: 5px 5px 5px 5px;
+}
+.hroad {
+  color: white;
+  margin-left: -8px;
+  margin-top: 80px;
+}
+.roadtrip a {
+  color: #fe9844;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.roadtrip i {
+  margin-left: 10px;
+}
+
+.quate4 {
+  color: white;
+  margin-top: -80px;
+  margin-left: 850px;
+}
+.q41 {
+  font-family: Teko;
+  word-spacing: 2px;
+}
+.q42 {
+  margin-top: -15px;
+  font-family: Teko;
+  word-spacing: 3px;
+}
+.q43 {
+  margin-top: -15px;
+  font-family: Teko;
+  word-spacing: 2px;
+}
+.button2 {
+  font-family: default;
+  font-weight: 600;
+  background-color: #fe9844;
+  color: black;
+  width: 165px;
+  height: 60px;
+  padding: 18px 20px 20px 20px;
+  margin-top: 20px;
+}
+footer {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0),
+    rgb(15, 18, 39)
+  );
+  height: 500px;
+  margin-top: -100px;
+  color: white;
+}
+footer p {
+  color: gray;
+}
+.firstcol {
+  margin-left: 146px;
+  margin-top: 300px;
+}
+.firstcol p {
+  margin-top: 10px;
+}
+.navba {
+  font-family: "Aldrich", sans-serif;
+}
+.icons {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 23px;
+  letter-spacing: 5px;
+}
+.secondcol {
+  margin-top: 300px;
+  margin-left: 30px;
+}
+.secondcol h5 {
+  letter-spacing: 1px;
+  font-family: Teko;
+  margin-bottom: 20px;
+  color: rgb(167, 165, 165);
+}
+.secondcol p {
+  margin-top: -10px;
+}
+.thirdcol {
+  margin-left: -30px;
+  margin-top: 300px;
+}
+.thirdcol h5 {
+  letter-spacing: 1px;
+  font-family: Teko;
+  margin-bottom: 20px;
+  color: rgb(167, 165, 165);
+}
+.thirdcol p {
+  margin-top: -10px;
+}
+.forthcol {
+  margin-top: -170px;
+  margin-left: 950px;
+}
+.forthcol h5 {
+  letter-spacing: 1px;
+  color: rgb(167, 165, 165);
+  font-family: Teko;
+}
+.forthcol img {
+  margin-left: -50px;
+  width: 200px;
+}
